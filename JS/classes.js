@@ -8,6 +8,8 @@ class obj{
     }
     draw(){
         let img = newImage ()
+        img.src = this.imagem
+        canvas.drawImage(img,this.x,this.y,this.largura,this.altura)
         
     }
 } 
