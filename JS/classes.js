@@ -7,7 +7,7 @@ class obj{
         this.imagem = imagem
     }
     draw(){
-        let img = newImage ()
+        let img = newImage()
         img.src = this.imagem
         canvas.drawImage(img,this.x,this.y,this.largura,this.altura)
         
