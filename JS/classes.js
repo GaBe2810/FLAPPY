@@ -13,3 +13,9 @@ class obj{
         
     }
 } 
+
+class Bg extends obj{
+    move(){
+        
+    }
+}
