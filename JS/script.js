@@ -12,6 +12,7 @@ let bg2 = new Bg(500,0,500,900,'IMG/kitty_fundo.jpg')
 
     function uptade(){
         bg.move(10, -500, 0)
+        bg2.move(10, 0, 500)
     }
 
     function main(){
