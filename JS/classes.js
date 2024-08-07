@@ -15,7 +15,10 @@ class obj{
 } 
 
 class Bg extends obj{
-    move(){
-        
+    move(velocidade, limite, posicao){
+        this.x -= velocidade
+        if (this.x < limite){
+            this.x = posicao
+        }
     }
 }
