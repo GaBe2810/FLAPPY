@@ -3,8 +3,8 @@ const canvas = document.getElementById('canvas').getContext('2d')
 
 let bg = new Bg(0,0,500,900,'IMG/kitty_fundo.jpg')
 let bg2 = new Bg(500,0,500,900,'IMG/kitty_fundo.jpg') 
-let ground = new Bg(0,700,500,200,'IMG/ground.png')
-let ground2 = new Bg(0,700,500,200,'IMG/ground.png') 
+let ground = new Bg(0,700,500,200,'ground.png')
+let ground2 = new Bg(0,700,500,200,'ground.png') 
 
     function draw(){
         bg.draw()
