@@ -22,3 +22,7 @@ class Bg extends obj{
         }
     }
 }
+
+class Ground extends Bg{
+    
+}
