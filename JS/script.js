@@ -14,10 +14,10 @@ let ground2 = new Ground(0,700,500,200,'IMG/ground.png')
     }
 
     function uptade(){
-        bg.move(10, -500, 0)
-        bg2.move(10, 0, 500)
-        ground.move(10, -500, 0)
-        ground2.move(10, 0, 485)
+        bg.move(1, -500, 0)
+        bg2.move(1, 0, 500)
+        ground.move(2, 500, 0)
+        ground2.move(2, 0, 500)
     }
 
     function main(){
