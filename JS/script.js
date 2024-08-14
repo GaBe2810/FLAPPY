@@ -20,8 +20,8 @@ let bird = new Bird (50,400,63,51, 'IMG/bird0.png')
         bg.move(1, -500, 0)
         bg2.move(1, 0, 500)
         ground.move(2, -500, 0)
-        ground2.move(2, 0, 495)
-        bird.animacao (7,4, 'bird')
+        ground2.move(2, 0, 500)
+        bird.animacao (1,4, 'bird')
     }
 
     function main(){
