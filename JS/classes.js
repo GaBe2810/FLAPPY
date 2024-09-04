@@ -52,5 +52,8 @@ class Bird extends obj{
         if(this.y >= 660){
             this.y = 660
         }
+        else if(this.y <= 0){
+            this.y = 0
+        }
     }
 }
