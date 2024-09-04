@@ -26,6 +26,7 @@ document.addEventListener('click', function(e){
         ground.move(2, -500, 0)
         ground2.move(2, 0, 500)
         bird.animacao (1,4, 'bird')
+        bird.move()
     }
 
     function main(){
