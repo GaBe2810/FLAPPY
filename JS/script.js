@@ -9,7 +9,7 @@ let bird = new Bird (50,400,63,51, 'IMG/bird0.png')
 //let bird = new Bird (50,400,63,51, 'IMG/kitty.gif')
 
 document.addEventListener('click', function(e){
-    bird.y -= 5
+    bird.velocidade -= 13
 })
 
     function draw(){
@@ -27,6 +27,7 @@ document.addEventListener('click', function(e){
         ground2.move(2, 0, 500)
         bird.animacao (1,4, 'bird')
         bird.move()
+        bird.limite()
     }
 
     function main(){

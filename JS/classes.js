@@ -48,4 +48,9 @@ class Bird extends obj{
         }
         this.y += this.velocidade
     }
+    limite(){
+        if(this.y >= 660){
+            this.y = 660
+        }
+    }
 }
