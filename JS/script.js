@@ -9,7 +9,7 @@ let bird = new Bird (50,400,63,51, 'IMG/bird0.png')
 //let bird = new Bird (50,400,63,51, 'IMG/kitty.gif')
 
 document.addEventListener('click', function(e){
-    bird.y -= 7
+    bird.y -= 5
 })
 
     function draw(){
