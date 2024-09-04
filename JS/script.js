@@ -4,9 +4,13 @@ const canvas = document.getElementById('canvas').getContext('2d')
 let bg = new Bg(0,0,500,900,'IMG/kitty_fundo.jpg')
 let bg2 = new Bg(500,0,500,900,'IMG/kitty_fundo.jpg') 
 let ground = new Ground(0,700,500,200,'IMG/ground.png')
-let ground2 = new Ground(0,700,500,200,'IMG/ground.png') 
+let ground2 = new Ground(500,700,500,200,'IMG/ground.png') 
 let bird = new Bird (50,400,63,51, 'IMG/bird0.png')
 //let bird = new Bird (50,400,63,51, 'IMG/kitty.gif')
+
+document.addEventListener('click', function(e){
+    bird.y 
+})
 
     function draw(){
         bg.draw()
